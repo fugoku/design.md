@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo build",
+    "build": "node init && turbo build",
     "test": "turbo test",
     "lint": "turbo lint",
     "cli": "bun run packages/cli/src/index.ts"
